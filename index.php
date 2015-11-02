@@ -18,7 +18,7 @@ $Db->delete('posts');
 </head>
 <body>
 <pre>
-<?php print_r($results); ?>
+<?php //print_r($results); ?>
 </pre>
 </body>
 </html>
