@@ -1,6 +1,6 @@
 <?php
 
-class MysqlDB {
+class Crud {
 
    protected $_mysql;
    protected $_where = array();
