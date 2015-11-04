@@ -1,12 +1,7 @@
 <?php
 
-require_once('MySqlDb.php');
-$Db = new MySqlDb('localhost', 'root', 'root', 'db');
-
-$Db->where('id', 34);
-$Db->delete('posts');
-
-
+require_once('crud.php');
+$Db = new Crud('localhost', 'root', 'secret', 'db');
 
 ?>
 <!DOCTYPE html>
