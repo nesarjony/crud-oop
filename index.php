@@ -1,7 +1,7 @@
 <?php
 
-require_once('crud.php');
-$Db = new Crud('localhost', 'root', 'secret', 'db');
+require_once('database.php');
+$db = new DB('localhost', 'root', 'secret', 'db');
 
 ?>
 <!DOCTYPE html>
