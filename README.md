@@ -1,2 +1,2 @@
 # crud-oop
-This is a simple CRUD API that implementing on PHP..
+This is a simple CRUD API implemented with PHP..
